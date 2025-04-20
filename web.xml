@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>AddStudentServlet</servlet-name>
+        <servlet-class>com.sms.AddStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddStudentServlet</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewStudentsServlet</servlet-name>
+        <servlet-class>com.sms.ViewStudentsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewStudentsServlet</servlet-name>
+        <url-pattern>/view</url-pattern>
+    </servlet-mapping>
+</web-app>
